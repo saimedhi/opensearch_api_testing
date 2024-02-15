@@ -60,7 +60,9 @@
 }
 
 
-2. With timeout query param `GET https://localhost:9200/_plugins/_knn/stats?timeout=60ms`
+2. With timeout query param 
+
+`GET https://localhost:9200/_plugins/_knn/stats?timeout=60ms`
 
 
 {
@@ -122,7 +124,9 @@
 }
 
 
-3. with node-id path param `GET https://localhost:9200/_plugins/_knn/k9AHEEapRhK_CrKyE4cm-Q/stats?timeout=60ms`
+3. With node-id path param 
+
+`GET https://localhost:9200/_plugins/_knn/k9AHEEapRhK_CrKyE4cm-Q/stats?timeout=60ms`
 
 
 {
@@ -183,7 +187,8 @@
     }
 }
 
-4. with node-id, stat path params
+4. With node-id, stat path params
+
 `GET https://localhost:9200/_plugins/_knn/k9AHEEapRhK_CrKyE4cm-Q/stats/cache_capacity_reached,load_success_count,knn_query_requests?timeout=60ms`
 
 
@@ -203,7 +208,8 @@
     }
 }
 
-5.with stat path param
+5.With stat path param
+
 `GET https://localhost:9200/_plugins/_knn/stats/cache_capacity_reached,load_success_count,knn_query_requests?timeout=60ms`
 
 {
